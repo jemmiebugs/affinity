@@ -1,10 +1,4 @@
-/**
-* Template Name: ZenBlog
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/zenblog-bootstrap-blog-template/
-* Author: BootstrapMade.com
-* License: https:///bootstrapmade.com/license/
-*/
+
 
 /**
 * Check out variables.css for easy customization of colors, typography, and other repetitive properties
@@ -238,7 +232,7 @@ section {
     justify-content: space-between;
     padding: 10px 0 10px 30px;
     font-family: var(--font-default);
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 500;
     color: rgba(var(--color-default-rgb), 1);
     white-space: nowrap;
@@ -727,8 +721,8 @@ section {
 
 .more {
   font-family: var(--font-secondary);
-  text-transform: uppercase;
-  font-size: 12px;
+  text-transform: none;
+  font-size: 16px;
   font-weight: 500;
   position: relative;
   display: inline-block;
@@ -742,7 +736,7 @@ section {
   left: 0;
   right: 0;
   bottom: 0;
-  background: var(--color-black);
+  /* background: var(--color-black); */
 }
 
 .post-content {
@@ -790,9 +784,9 @@ section {
 
 .aside-title,
 .category-title {
-  text-transform: uppercase;
+  text-transform: none;
   letter-spacing: 0.1rem;
-  font-size: 14px;
+  font-size: 24px;
   font-weight: 700;
   margin-bottom: 30px;
   border-bottom: 2px solid var(--color-black);
