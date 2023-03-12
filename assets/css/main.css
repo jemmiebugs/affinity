@@ -919,9 +919,9 @@ section {
 /*--------------------------------------------------------------
 # Comments
 --------------------------------------------------------------*/
-.comment {
+/* .comment { */
   /* Font not working in <textarea> for this version of bs */
-}
+/* } */
 
 .comment .avatar {
   position: relative;
