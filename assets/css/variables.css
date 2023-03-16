@@ -1,14 +1,14 @@
 /**
-* Template Name: ZenBlog
+* Template Name: Affinity
 * File: variables.css
 * Description: Easily customize colors, typography, and other repetitive properties used in the template main stylesheet file main.css
 * 
-* Template URL: https://bootstrapmade.com/zenblog-bootstrap-blog-template/
+* 
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 * 
 * Contents:
-* 1. ZenBlog template variables 
+* 1. Affinity template variables 
 * 2. Override default Bootstrap variables
 * 3. Set color and background class names
 *
@@ -16,14 +16,14 @@
 */
 
 /*--------------------------------------------------------------
-# 1. ZenBlog template variables 
+# 1. Affinity template variables 
 --------------------------------------------------------------*/
 :root {
 
   /* Fonts */
-  --font-default: 'EB Garamond', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: 'EB Garamond', serif; /*'Playfair Display', serif;*/
-  --font-secondary: 'Inter', sans-serif;
+  --font-default: 'louis-george', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-primary: 'louis-george'; /*'Playfair Display', serif;*/
+  --font-secondary: 'histeagin';
 
   /* Colors */
   /* The *-rgb color names are simply the RGB converted value of the corresponding color for use in the rgba() function */
@@ -93,6 +93,10 @@
 
   --color-black: #000000;
   --color-black-rgb: 0, 0, 0;
+
+  --color-offwhite:#f2f2f2;
+  --color-offwhite-rgb: rgb(242, 242, 242);
+
 }
 
 /*--------------------------------------------------------------
@@ -205,3 +209,7 @@
 .bg-white { background-color: var(--color-white) !important; }
 .bg-gray { background-color: var(--color-gray) !important; }
 .bg-black { background-color: var(--color-black) !important; }
+
+/*--------------------------------------------------------------
+# 4. Modal and background class names
+--------------------------------------------------------------*/
