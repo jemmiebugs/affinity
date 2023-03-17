@@ -88,6 +88,20 @@ document.addEventListener('DOMContentLoaded', () => {
       behavior: 'smooth'
     }));
   }
+/**
+   * show more / show less
+   */
+//   $(".toggle_btn").click(function(){
+//     $(this).toggleClass("active");
+//    $(".wrapper ul").toggleClass("active");
+ 
+//    if($(".toggle_btn").hasClass("active")){
+//      $(".toggle_text").text("Show Less");
+//    }
+//    else{
+//      $(".toggle_text").text("Show More");
+//    }
+//  });
 
   /**
    * Hero Slider
@@ -151,4 +165,12 @@ document.addEventListener('DOMContentLoaded', () => {
     aos_init();
   });
 
+  // const myModal = document.getElementById('myModal')
+  // const myInput = document.getElementById('myInput')
+  
+  // myModal.addEventListener('shown.bs.modal', () => {
+  //   myInput.focus()
+  // })
+
 });
+
