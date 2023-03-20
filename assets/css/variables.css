@@ -1,14 +1,14 @@
 /**
-* Template Name: ZenBlog
+* Template Name: Affinity
 * File: variables.css
 * Description: Easily customize colors, typography, and other repetitive properties used in the template main stylesheet file main.css
 * 
-* Template URL: https://bootstrapmade.com/zenblog-bootstrap-blog-template/
+* 
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 * 
 * Contents:
-* 1. ZenBlog template variables 
+* 1. Affinity template variables 
 * 2. Override default Bootstrap variables
 * 3. Set color and background class names
 *
@@ -16,14 +16,96 @@
 */
 
 /*--------------------------------------------------------------
-# 1. ZenBlog template variables 
+# 1. Affinity template variables 
 --------------------------------------------------------------*/
 :root {
 
+  /* @font-face 
+    font-family: 'louis_george_caferegular';
+    src: url('assets/font-kit/louis_george_cafe-webfont.woff2') format('woff2'),
+         url('assets/font-kit/louis_george_cafe-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+
+
+
+
+@font-face 
+    font-family: 'louis_george_cafe_lightRg';
+    src: url('assets/font-kit/louis_george_cafe_light-webfont.woff2') format('woff2'),
+         url('assets/font-kit/louis_george_cafe_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+
+
+
+
+@font-face 
+    font-family: 'louis_george_cafe_lightitalic';
+    src: url('assets/font-kit/louis_george_cafe_light_italic-webfont.woff2') format('woff2'),
+         url('assets/font-kit/louis_george_cafe_light_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+
+
+
+
+@font-face 
+    font-family: 'louis_george_cafeitalic';
+    src: url('assets/font-kit/louis_george_cafe_italic-webfont.woff2') format('woff2'),
+         url('assets/font-kit/louis_george_cafe_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+
+
+
+
+@font-face 
+    font-family: 'louis_george_cafebold';
+    src: url('assets/font-kit/louis_george_cafe_bold-webfont.woff2') format('woff2'),
+         url('assets/font-kit/louis_george_cafe_bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+
+
+
+
+@font-face 
+    font-family: 'louis_george_cafebold_italic';
+    src: url('assets/font-kit/louis_george_cafe_bold_italic-webfont.woff2') format('woff2'),
+         url('assets/font-kit/louis_george_cafe_bold_italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+
+
+
+
+
+@font-face 
+    font-family: 'histeaginregular';
+    src: url('assets/font-kit/histeagin-webfont.woff2') format('woff2'),
+         url('assets/font-kit/histeagin-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal; */
+
+
+
   /* Fonts */
-  --font-default: 'EB Garamond', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary: 'EB Garamond', serif; /*'Playfair Display', serif;*/
-  --font-secondary: 'Inter', sans-serif;
+  --font-default: 'louis_george_cafebold';
+  /* 'histeaginregular', system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+  --font-primary: 'louis_george_cafebold'; /*'Playfair Display', serif;*/
+  --font-secondary: 'histeaginregular';
 
   /* Colors */
   /* The *-rgb color names are simply the RGB converted value of the corresponding color for use in the rgba() function */
@@ -93,6 +175,10 @@
 
   --color-black: #000000;
   --color-black-rgb: 0, 0, 0;
+
+  --color-offwhite:#f2f2f2;
+  --color-offwhite-rgb: rgb(242, 242, 242);
+
 }
 
 /*--------------------------------------------------------------
@@ -205,3 +291,7 @@
 .bg-white { background-color: var(--color-white) !important; }
 .bg-gray { background-color: var(--color-gray) !important; }
 .bg-black { background-color: var(--color-black) !important; }
+
+/*--------------------------------------------------------------
+# 4. Modal and background class names
+--------------------------------------------------------------*/
